@@ -47,7 +47,7 @@ class Tree:
             print(node.value, end="")
             self.preorder(node.left_child)
             self.preorder(node.right_child)
-    
+
     def postorder(self, node):
         if node is not None:
             self.postorder(node.left_child)
